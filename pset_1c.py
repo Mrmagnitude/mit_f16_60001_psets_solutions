@@ -69,7 +69,7 @@ while month != 36 or current_saving-down_payment >=100 :
     if it is not possible to pay a downpayment """
     
 if search>1:
-    print('best saving rate : ' ,get_saving_rate())
+    print('best saving rate : ' ,get_saving_rate()/10000)
     print('number of searches : ' , search)
 else:
     pass
